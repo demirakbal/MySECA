@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- Created By Demir Muhammed Akbalikci -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Code: 401</title>
+    <link rel="stylesheet" href="https://demirakbal.com/error/err-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+</head>
+<body>
+<nav class="navbar">
+    <div class="max-width">
+        <div class="logo">
+        <img src="/images/White Logo" alt="logo" class="img">
+        <a class="title1"></a><a class="title2"></a></div>
+        <ul class="menu">
+            <li><a href="https://demirakbal.com/#home" class="menu-btn">Home</a></li><li><a href="https://demirakbal.com/#about" class="menu-btn">About</a></li><li><a href="https://demirakbal.com/#skills" class="menu-btn">Skills</a></li><li><a href="https://demirakbal.com/#education" class="menu-btn">Education</a></li><li><a href="https://demirakbal.com/#activities" class="menu-btn">Activities</a></li><li><a href="https://demirakbal.com/projects" class="menu-btn">Projects</a></li><li><a href="https://demirakbal.com/#contact" class="menu-btn">Contact</a></li>
+        </ul>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</nav>
+<!-- home section start -->
+<section class="home"><span style="position: absolute; top:-105px;" id=home></span>
+    <div class="max-width">
+        <div class="columns left">
+            <div class="home-content">
+                <div class="text-2">401</div>
+                <div class="text-3"><span class="typing"></span></div>
+                <a href="https://demirakbal.com">Go Back</a>
+            </div>
+          </div>
+          <div class="columns right">
+            <div class="theme-picker">
+                <span>
+                    <div class="column">
+                        <div class="circle" id="circle"><i class="fas fa-palette fa-spin"></i></div>
+                        <ul><div class="ul">
+                            <li class="colors" id="red" data-color="#dc143c"></li>
+                            <li class="colors" id="orange" data-color="#ff991c"></li>
+                            <li class="colors" id="yellow" data-color="#f2da4a"></li>
+                            <li class="colors" id="green" data-color="#3ed673"></li>
+                            <li class="colors" id="blue" data-color="#42b7ff"></li>
+                            <li class="colors" id="purple" data-color="#ae24ff"></li>
+                            <li class="colors" id="pink" data-color="#f04ac5"></li>
+                        </div></ul>
+                    </div>
+                </span>
+            </div>
+          </div>
+    </div>
+</section>
+<script src="https://demirakbal.com/error/script/401-err-script.js"></script>
+<body>
+<html>

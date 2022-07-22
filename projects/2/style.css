@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #060606, #0F0F0F);
+}
+.checkbox{
+  position: relative;
+  display: flex;
+  width: 160px;
+  height: 80px;
+  background-color: #dc143c;
+  border: 5px solid #dc143c;
+  border-radius: 80px;
+  box-shadow: 0 0 100px #dc143c;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.checkbox.open{
+  background-color: #3ed673;
+  border: 5px solid #3ed673;
+  box-shadow: 0 0 100px #3ed673;
+  transition: all 0.3s ease;
+}
+.checkbox:hover{
+  width: 200px;
+  height: 100px;
+  border: 6.25px solid #dc143c;
+  transition: all 0.3s ease;
+}
+.checkbox.open:hover{
+  border: 6.25px solid #3ed673;
+  transition: all 0.3s ease;
+}
+.checkbox .face{
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background: white;
+  border-radius: 50%;
+  align-self: center;
+  box-shadow: 5px 0 20px #8f0c27;
+  transition: all 0.3s ease;
+}
+.checkbox.open .face{
+  box-shadow: -5px 0 20px #1f9348;
+  transition: all 0.3s ease;
+  right: 0px;
+}
+.checkbox:hover .face{
+  width: 87.5px;
+  height: 87.5px;
+  transition: all 0.3s ease;
+}
+.checkbox .left{
+  position: absolute;
+  top: 40px;
+  left: 11px;
+  width: 18px;
+  height: 5px;
+  background: #dc143c;
+  transition: all 0.3s ease;
+  border-radius: 2.5px;
+}
+ .checkbox.open .left{
+   top: 22px;
+   left: 15px;
+   width: 12px;
+   height: 12px;
+   border-radius: 50%;
+   background: #3ed673;
+   transition: all 0.3s ease;
+ }
+.checkbox:hover .left{
+  top: 50px;
+  left: 13.75px;
+  width: 22.5px;
+  height: 6.25px;
+  border-radius: 3.125px;
+  transition: all 0.3s ease;
+}
+.checkbox.open:hover .left{
+  top: 27.5px;
+  left: 18.75px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.checkbox .right{
+  position: absolute;
+  top: 40px;
+  right: 12.5px;
+  width: 18px;
+  height: 5px;
+  background: #dc143c;
+  transition: all 0.3s ease;
+  border-radius: 2.5px;
+}
+ .checkbox.open .right{
+   top: 22px;
+   left: 42px;
+   width: 12px;
+   height: 12px;
+   border-radius: 50%;
+   background: #3ed673;
+   transition: all 0.3s ease;
+ }
+.checkbox:hover .right{
+  top: 50px;
+  right: 15.625px;
+  width: 22.5px;
+  height: 6.25px;
+  border-radius: 3.125px;
+  transition: all 0.3s ease;
+}
+.checkbox.open:hover .right{
+  top: 27.5px;
+  left: 52.5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.checkbox .mouth{
+  position: absolute;
+  top: 52px;
+  left: 27px;
+  width: 15px;
+  height: 5px;
+  background: #dc143c;
+  border-radius: 2.5px;
+  transition: all 0.3s ease;
+}
+.checkbox:hover .mouth{
+  top: 65px;
+  left: 33.75px;
+  width: 18.75px;
+  height: 6.25px;
+  border-radius: 3.125px;
+  transition: all 0.3s ease;
+}
+.checkbox.open .mouth{
+  background: #3ed673;
+  border-radius: 0;
+  height: 8px;
+  top: 40px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.checkbox.open:hover .mouth{
+  height: 10px;
+  top: 50px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+@media (max-width: 99px){
+  .checkbox{
+    pointer-events: none;
+    opacity: 0
+  }
+}

@@ -1,0 +1,7 @@
+RewriteEngine on
+ErrorDocument 400 https://demirakbal.com/error/400
+ErrorDocument 401 https://demirakbal.com/error/401
+ErrorDocument 403 https://demirakbal.com/error/403
+ErrorDocument 404 https://demirakbal.com/error/404
+ErrorDocument 410 https://demirakbal.com/error/410
+ErrorDocument 500 https://demirakbal.com/error/500
